@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Wed Apr 24 11:39:29 UTC 2024 - Fergal Mc Carthy <fmccarthy@suse.com>
+
+- Update to version 1.9.0
+  * Add --gpg-auto-import-keys flag before action in zypper command (bsc#1219004)
+
+-------------------------------------------------------------------
 Wed Mar 13 12:37:29 UTC 2024 - José Gómez <1josegomezr@gmail.com>
 
 - Update to version 1.8.0
