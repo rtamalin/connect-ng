@@ -99,6 +99,7 @@ func Backup() error {
 		"/etc/zypp/repos.d",
 		"/etc/zypp/credentials.d",
 		"/etc/zypp/services.d",
+		"/etc/products.d", // also backup products.d
 	}
 	tarballPath := "/var/adm/backup/system-upgrade/repos.tar.gz"
 	if err := createTarball(tarballPath, root, paths); err != nil {
